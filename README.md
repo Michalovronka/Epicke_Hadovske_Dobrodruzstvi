@@ -1,2 +1,3 @@
-Doopravdy Epické
-https://michalovronka.github.io/Epicke_Hadovske_Dobrodruzstvi/
+# Doopravdy Epické
+
+[Vydejte se na úýasné dobružství](https://michalovronka.github.io/Epicke_Hadovske_Dobrodruzstvi/)
