@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Epický Snake</title>
-    <link rel="stylesheet" href="./res/css/style.css">
-    <link rel="icon" type="image/x-icon" href="./res/img/favicon.png">
-</head>
-<body>
-    <div>
-    <div id="gameOver"></div>
-    <canvas id="canvas"></canvas>
-    <div id="score">Score: 0</div>
+    <link rel="stylesheet" href="./res/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./res/img/favicon.png" />
+  </head>
+  <body>
+
+    <div id="mainBody">
+      <div id="mainScreenText">EPIC SNAKE</div>
+      <div id="gameOver"></div>
+      <canvas id="canvas" width="0" height="0"></canvas>
+      <div id="score">Score: 0</div>
+      <div id="tempScore"></div>
+      <div id="mainButtonRow">
+        <button id="gameButton">PLAY</button>
+        <button id="skinMainButton">SKINS</button>
+        <button id="mainScreenButton"></button>
+      </div>
     </div>
+
+    <div id="skinShop">
+        <button id="mainScreenButtonShop">Back</button>
+        <div id="skinSeclection">
+            <div id="skin1Selection">
+                <img src="/res/img/skins/skin1/SnakeWhole1.png" alt="nefunguje Obrázek">
+                <p>FREE</p>
+                <button id="skin1button">Equip</button>
+            </div>
+            <div id="skin2Selection">
+                <img src="/res/img/skins/skin2/SnakeWhole2.png" alt="nefunguje Obrázek">
+                <p>20 Score</p>
+                <button id="skin2button">BUY</button>
+            </div>
+        </div>
+    </div>
+
     <script type="module" src="./res/js/main.js"></script>
-</body>
+  </body>
 </html>

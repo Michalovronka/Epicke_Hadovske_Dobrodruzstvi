@@ -1,0 +1,55 @@
+[
+    {
+        "name": "skin1",
+        "parts": [
+            {
+                "part": "head",
+                "sprite": {
+                    "path": "./res/img/skins/skin1/snakeHead1.png"
+                }
+            },
+
+            {
+                "part": "body",
+                "sprite": {
+                    "path": "./res/img/skins/skin1/snakeBody1.png"
+                }
+            },
+
+            {
+                "part": "tail",
+                "sprite": {
+                    "path": "./res/img/skins/skin1/snakeTail1.png"
+                }
+            }
+        ]
+
+    },
+
+    {
+        "name": "skin2",
+        "parts": [
+            {
+                "part": "head",
+                "sprite": {
+                    "path": "./res/img/skins/skin2/snakeHead2.png"
+                }
+            },
+
+            {
+                "part": "body",
+                "sprite": {
+                    "path": "./res/img/skins/skin2/snakeBody2.png"
+                }
+            },
+
+            {
+                "part": "tail",
+                "sprite": {
+                    "path": "./res/img/skins/skin2/snakeTail2.png"
+                }
+            }
+        ]
+
+    }
+]
