@@ -8,6 +8,7 @@ let body;
 //sfx slider??
 //backgroundy??
 //víc skinů??
+//skiny na ovoce??
 //fixnout ten kod aby nebyl jak od dementa napsanej
 
 const skinShop = document.getElementById("skinShop");
